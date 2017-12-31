@@ -2,22 +2,22 @@
   <div id="navbar">
     <b-navbar fixed="top" toggleable="md" type="dark" variant="thus">
 
-      <b-navbar-brand class="brand" href="/">
+      <b-navbar-brand class="brand" to="/">
         <img class="brand" src="../assets/logo.png" alt="Barnard's Star" />
         <div class="spacer"></div>
         THUS
       </b-navbar-brand>
 
       <b-navbar-nav>
-        <b-nav-item href="/">Bio</b-nav-item>
-        <b-nav-item href="/coding/">Coding</b-nav-item>
-        <b-nav-item href="/writing/">Writing</b-nav-item>
+        <b-nav-item to="/bio">Bio</b-nav-item>
+        <b-nav-item to="/coding">Coding</b-nav-item>
+        <b-nav-item to="/writing">Writing</b-nav-item>
         <b-nav-item-dropdown text="Blogs">
           <b-dropdown-item href="https://www.sundry-musings.com">Sundry Musings</b-dropdown-item>
           <b-dropdown-item href="https://www.confederateddefenseforces.com">Confederated Defense Forces</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Astrophysics for Writers">
-          <b-dropdown-item href="/astro/">Home</b-dropdown-item>
+          <b-dropdown-item to="/astro/">Home</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
 
@@ -57,6 +57,10 @@
 </script>
 
 <style scoped>
+  .text-dark {
+    color: gray;
+  }
+
   .bg-thus {
     background-color: #00004d;
   }
@@ -67,8 +71,8 @@
   }
 
   img.brand {
-    height: 5%;
-    width: 5%;
+    height: 8%;
+    width: 8%;
   }
 
   .spacer {
