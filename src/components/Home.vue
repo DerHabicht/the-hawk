@@ -4,14 +4,11 @@
     <div class="vspacer"></div>
     <h1>Developer. Writer. Nerd.</h1>
     <div class="vspacer"></div>
-    <div class="homenav">
-      <router-link to="/bio">Bio</router-link>
-      <div class="hspacer"></div>
-      <router-link to="/coding">Coding</router-link>
-      <div class="hspacer"></div>
-      <router-link to="/writing">Writing</router-link>
-      <div class="hspacer"></div>
-    </div>
+    <b-button-group>
+      <b-button variant="dark" to="/bio">Bio</b-button>
+      <b-button variant="dark" to="/coding">Coding</b-button>
+      <b-button variant="dark" to="/writing">Writing</b-button>
+    </b-button-group>
   </div>
 </template>
 
@@ -42,6 +39,14 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  .bg-dark {
+    background-color: white;
+  }
+
+  .text-dark {
+    color: black;
   }
 
   .homenav {
