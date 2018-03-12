@@ -12,13 +12,7 @@
         <b-nav-item to="/bio">Bio</b-nav-item>
         <b-nav-item to="/coding">Coding</b-nav-item>
         <b-nav-item to="/writing">Writing</b-nav-item>
-        <b-nav-item-dropdown text="Blogs">
-          <b-dropdown-item href="https://www.sundry-musings.com">Sundry Musings</b-dropdown-item>
-          <b-dropdown-item href="https://www.confederateddefenseforces.com">Confederated Defense Forces</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-item-dropdown text="Astrophysics for Writers">
-          <b-dropdown-item to="/astro/">Home</b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item href="https://www.sundry-musings.com">Blog</b-nav-item>
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
