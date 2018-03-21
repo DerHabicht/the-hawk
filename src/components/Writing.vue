@@ -2,28 +2,6 @@
   <div id="writing">
     <navbar/>
     <h1>Writing Projects</h1>
-    <h2>Blogs</h2>
-    <b-card-group class="project-list-small" deck>
-      <b-card title="Sundry Musings"
-              img-src="../assets/logo.png"
-              img-alt="Barnard's Star"
-              img-top>
-        <p class="card-text">
-          Both a professional and a personal blog, <a href="https://www.sundry-musings.com">Sundry Musings</a> is where
-          I core-dump my experiences, project progress, and all manner of random thoughts of every kind.
-        </p>
-      </b-card>
-      <b-card title="Confederated Defense Forces"
-              img-src="../assets/profile.png"
-              img-alt="CDF Crest"
-              img-top>
-        <p class="card-text">
-          A serial short story blog, <a href="https://www.confederateddefenseforces.com">Confederated Defense Forces</a>
-          is where I write the many stories that happen within the Void War universe.
-        </p>
-      </b-card>
-    </b-card-group>
-
     <h2>Novels</h2>
     <h3>The Void War</h3>
     <b-card-group class="project-list">
